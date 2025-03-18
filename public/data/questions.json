@@ -1,0 +1,376 @@
+[
+    {
+      "id": 1,
+      "category": "HR",
+      "difficulty": "Easy",
+      "question": "Tell me about yourself.",
+      "answer": "I am [Your Name], a [Your Qualification] graduate with experience in [Your Domain]. I have skills in [Mention Key Skills] and have worked on projects like [Briefly Mention a Project]. I am passionate about [Your Interest] and eager to contribute to [Company Name]."
+    },
+    {
+      "id": 2,
+      "category": "HR",
+      "difficulty": "Easy",
+      "question": " Why do you want to work for our company?",
+      "answer": "I admire [Company Name] for its innovation, work culture, and growth opportunities. Your company’s values and mission resonate with my career aspirations. I am excited about the role because it allows me to apply my skills in [mention skills relevant to the job]. Additionally, working with a talented team in such a dynamic environment excites me. I believe I can contribute positively while growing professionally."
+    },
+    {
+      "id": 3,
+      "category": "HR",
+      "difficulty": "Easy",
+      "question":"What are your strengths?" ,
+      "answer": "Some of my key strengths include problem-solving, adaptability, and teamwork. I am highly organized and can manage multiple tasks efficiently. My ability to analyze situations and make quick, informed decisions helps me excel in challenging environments. I am also a fast learner, which allows me to pick up new technologies or concepts quickly. My strong communication skills enable me to collaborate effectively with different teams."
+    },
+    {
+        "id": 5,
+        "category": "HR",
+        "difficulty": "Easy",
+        "question": "What are your weaknesses?",
+        "answer": "One of my weaknesses is that I sometimes focus too much on details, which can slow down my workflow. However, I am working on improving my efficiency by setting clear priorities. I also tend to take on multiple responsibilities at once, but I have learned to delegate tasks when needed. I actively seek feedback and use it to improve my performance. I believe continuous learning helps in overcoming weaknesses."
+    },
+    {
+        "id": 7,
+        "category": "HR",
+        "difficulty": "Easy",
+        "question": "Where do you see yourself in five years?",
+        "answer": "In five years, I see myself in a leadership role, contributing significantly to the company’s growth. I aim to enhance my skills in [specific skill related to the job] and take on more responsibilities. I am eager to mentor and guide new team members as I gain more experience. Additionally, I want to work on impactful projects that make a difference. I believe that with dedication and learning, I can achieve these goals."
+    },
+    {
+        "id": 8,
+        "category": "HR",
+        "difficulty": "Easy",
+        "question": "How do you handle stress?",
+        "answer": "I handle stress by staying organized and maintaining a positive mindset. When under pressure, I prioritize my tasks and break them down into manageable steps. I also practice deep breathing and take short breaks to stay focused. Effective time management helps me complete work efficiently without feeling overwhelmed. I believe challenges are opportunities for growth, and I stay motivated to overcome them."
+      },
+      {
+        "id": 9,
+        "category": "HR",
+        "difficulty": "Easy",
+        "question": "How do you handle feedback?",
+        "answer": "I take feedback as a learning opportunity to improve my skills and performance. Whether it’s positive or constructive criticism, I listen carefully and ask questions if needed. I ensure that I implement the feedback into my work for better results. I believe that regular feedback helps in professional growth and strengthens my abilities. It also helps me maintain a continuous learning approach in my career."
+      },
+      {
+        "id": 10,
+        "category": "HR",
+        "difficulty": "Easy",
+        "question": "What motivates you at work?",
+        "answer": "I am motivated by challenges and opportunities to learn new things. Working on meaningful projects that create value gives me a sense of fulfillment. I enjoy collaborating with a team and contributing to a positive work environment. Recognition for hard work and the opportunity to grow within the company also keep me motivated. Most importantly, seeing the impact of my work on the company’s success inspires me."
+      },
+      {
+        "id": 11,
+        "category": "HR",
+        "difficulty": "Easy",
+        "question": "Are you comfortable relocating?",
+        "answer": "Yes, I am open to relocating if required. I see relocation as an opportunity to grow both personally and professionally. Adapting to new environments allows me to develop new perspectives and experiences. If the role aligns with my career aspirations, I am more than willing to move. I believe that change brings new challenges and opportunities for learning."
+      },
+      {
+        "id": 12,
+        "category": "HR",
+        "difficulty": "Easy",
+        "question": "What is your greatest achievement so far?",
+        "answer": "One of my greatest achievements was successfully leading a [mention project] that had a significant impact. I took the initiative to [mention key action], which improved efficiency and productivity. The project received positive feedback from both management and clients. It also helped me enhance my leadership and problem-solving skills. The experience motivated me to take on more challenging projects in the future."
+      },
+      {
+        "id": 13,
+        "category": "HR",
+        "difficulty": "Medium",
+        "question": "Describe a time you faced a conflict at work.",
+        "answer": "During a project, my colleague and I had different opinions on the best approach. Instead of arguing, I initiated a discussion where we both shared our viewpoints. We analyzed the pros and cons of each method and agreed on a combined solution. This helped us complete the project successfully while maintaining a positive work relationship. I learned that communication and compromise are key to conflict resolution."
+      },
+      {
+        "id": 14,
+        "category": "HR",
+        "difficulty": "Medium",
+        "question": "Tell me about a time when you failed.",
+        "answer": "I once underestimated the time required for a project and missed the deadline. It affected the team's workflow, and I took responsibility for my mistake. I analyzed what went wrong and improved my time management skills. Since then, I ensure to plan effectively and set realistic deadlines. The experience taught me the importance of better project estimation and planning."
+      },
+      {
+        "id": 15,
+        "category": "HR",
+        "difficulty": "Medium",
+        "question": "How do you prioritize tasks?",
+        "answer": "I prioritize tasks based on urgency and importance. I use tools like to-do lists or project management software to track progress. I break large tasks into smaller steps and focus on completing high-impact tasks first. If multiple tasks require attention, I allocate specific time slots for each. This structured approach helps me stay organized and meet deadlines efficiently."
+      },
+      {
+        "id": 16,
+        "category": "HR",
+        "difficulty": "Medium",
+        "question": "Tell me about a time you had to adapt to change.",
+        "answer": "When my company switched to a new software system, I had to learn it quickly. I took online tutorials and sought guidance from colleagues to adapt faster. Within a short period, I became proficient and even helped my team transition smoothly. This experience taught me that adaptability and a willingness to learn are crucial in a fast-changing work environment. Embracing change can lead to professional growth."
+      },
+      {
+        "id": 17,
+        "category": "HR",
+        "difficulty": "Medium",
+        "question": "How do you handle a difficult coworker?",
+        "answer": "I maintain a professional and respectful approach while dealing with difficult coworkers. I try to understand their perspective and find common ground for collaboration. If conflicts arise, I focus on facts rather than personal differences. I also communicate openly and set clear expectations for teamwork. If needed, I involve a supervisor to ensure a healthy work environment."
+      },
+      {
+        "id": 18,
+        "category": "HR",
+        "difficulty": "Medium",
+        "question": "How do you handle multiple projects simultaneously?",
+        "answer": "I prioritize tasks based on deadlines and importance, using project management tools to stay organized. I break projects into smaller tasks and allocate specific time slots for each. Clear communication with stakeholders ensures smooth progress. If needed, I delegate tasks to ensure efficiency. Regular reviews help me track progress and make necessary adjustments."
+      },
+      {
+        "id": 19,
+        "category": "HR",
+        "difficulty": "Medium",
+        "question": "What do you do if you disagree with your manager’s decision?",
+        "answer": "I first try to understand their perspective and reasoning. If I still have concerns, I express my thoughts respectfully with supporting facts. If my idea is not accepted, I align with the decision and execute it professionally. The key is to maintain open communication while respecting authority. A constructive discussion often leads to better decision-making."
+      },
+      {
+        "id": 20,
+        "category": "HR",
+        "difficulty": "Medium",
+        "question": "How would you deal with an underperforming team member?",
+        "answer": "I would first understand the root cause of their underperformance through open discussions. I’d offer guidance, training, or mentorship if needed. Setting clear expectations and providing constructive feedback can help improve their performance. If the issue persists, I’d escalate it to the manager for further action. A supportive approach ensures team success."
+      },
+      {
+        "id": 21,
+        "category": "HR",
+        "difficulty": "Medium",
+        "question": "How do you ensure effective communication in a remote work environment?",
+        "answer": "I use tools like emails, Slack, and video calls for clear communication. Regular check-ins help align expectations and track progress. I ensure my messages are concise and provide all necessary details. Active listening and timely responses help build strong virtual collaboration. Keeping a transparent workflow minimizes misunderstandings."
+      },
+      {
+        "id": 22,
+        "category": "HR",
+        "difficulty": "Medium",
+        "question": "Tell me about a time you worked under pressure.",
+        "answer": "During a critical project, we had a tight deadline due to unexpected changes. I stayed calm and focused, breaking down tasks for better execution. I collaborated closely with the team, ensuring efficient problem-solving. By maintaining clear priorities and time management, we successfully met the deadline. The experience taught me resilience and adaptability."
+      },
+      {
+        "id": 23,
+        "category": "HR",
+        "difficulty": "Medium",
+        "question": "How do you keep yourself updated with industry trends?",
+        "answer": "I follow industry news, attend webinars, and read blogs or research papers. Networking with professionals through LinkedIn or industry events helps gain insights. I take online courses or certifications to stay ahead in my field. Continuous learning ensures I am aware of emerging trends and best practices. This helps me bring innovation to my work."
+      },
+      {
+        "id": 24,
+        "category": "HR",
+        "difficulty": "Medium",
+        "question": "What would you do if you made a mistake at work?",
+        "answer": "I would acknowledge the mistake immediately and take responsibility. Next, I’d assess the impact and find ways to rectify it quickly. If necessary, I’d inform my manager with a plan to fix the issue. Learning from mistakes ensures continuous improvement. Taking ownership builds credibility and trust."
+      },
+      {
+        "id": 25,
+        "category": "HR",
+        "difficulty": "Medium",
+        "question": "How do you define success?",
+        "answer": "Success, to me, is achieving both personal and professional goals while contributing meaningfully. It includes continuous learning, growth, and making a positive impact. I believe success is not just about results but also about resilience and teamwork. Helping others grow and being satisfied with my work also define success. Success is a journey, not just a destination."
+      },
+      {
+        "id": 26,
+        "category": "HR",
+        "difficulty": "Medium",
+        "question": " How do you build strong relationships with colleagues?",
+        "answer": "I prioritize open communication and actively listen to their ideas. Being respectful and collaborative helps in building trust. I engage in team activities and support colleagues when needed. Giving credit for their contributions strengthens relationships. A positive and supportive attitude creates a good work environment."
+      },
+      {
+        "id": 27,
+        "category": "HR",
+        "difficulty": "Medium",
+        "question": " What qualities do you think a good leader should have?",
+        "answer": "A good leader should have strong communication, problem-solving, and decision-making skills. They should inspire and motivate their team while providing guidance. Adaptability and emotional intelligence help in managing diverse teams. Leading by example and fostering teamwork ensures a productive work culture. A great leader focuses on both team success and individual growth."
+      },
+      {
+        "id": 28,
+        "category": "HR",
+        "difficulty": "Hard",
+        "question": "How do you handle ethical dilemmas at work?",
+        "answer": "I assess the situation based on company policies and ethical principles. I seek guidance from supervisors or HR if needed. Transparency and integrity guide my decisions. If I witness unethical behavior, I report it professionally. Upholding ethical standards ensures trust and credibility."
+      },
+      {
+        "id": 29,
+        "category": "HR",
+        "difficulty": "Hard",
+        "question": "How would you manage a situation where your team is resistant to change?",
+        "answer": "I would communicate the benefits of the change and address their concerns. Providing training and support helps ease the transition. Encouraging an open discussion allows team members to express their thoughts. Leading by example and demonstrating the positive impact builds trust. Gradual implementation helps in smoother adaptation."
+      },
+     
+      {
+        "id": 31,
+        "category": "HR",
+        "difficulty": "Hard",
+        "question": "If you had to let go of a team member, how would you handle it?",
+        "answer": "I would ensure the decision is based on fair evaluation and company policies. Having a transparent conversation with empathy is crucial. I would explain the reasons and offer support for their transition. Providing career guidance or references can help ease the impact. The key is to handle the situation professionally and respectfully."
+      },
+      {
+        "id": 32,
+        "category": "HR",
+        "difficulty": "Hard",
+        "question": " How do you handle constructive criticism?",
+        "answer": "I view constructive criticism as an opportunity to grow. I listen carefully, analyze the feedback, and implement necessary changes. I avoid taking it personally and focus on self-improvement. Asking for clarification, if needed, ensures better understanding. Continuous learning helps me improve and adapt."
+      },
+      {
+        "id": 33,
+        "category": "HR",
+        "difficulty": "Hard",
+        "question": "What would you do if your project deadline was suddenly moved up?",
+        "answer": "I would immediately assess the remaining tasks and prioritize them. I’d communicate with my team to realign our focus and optimize resources. If needed, I’d negotiate for additional support or resources. I would stay calm and work efficiently to meet the new deadline. Effective teamwork and problem-solving help in handling such situations."
+      },
+      {
+        "id": 34,
+        "category": "HR",
+        "difficulty": "Hard",
+        "question": "Describe a time you had to influence someone at work.",
+        "answer": "During a project, I convinced my manager to adopt a new tool that improved efficiency. I presented data and real-world examples to support my proposal. By highlighting benefits and addressing concerns, I gained buy-in. The implementation led to improved productivity. This experience taught me the power of persuasion and data-driven decisions."
+      },
+      {
+        "id": 35,
+        "category": "HR",
+        "difficulty": "Hard",
+        "question": "How do you manage conflicts within a team?",
+        "answer": "I address conflicts by facilitating open discussions where both parties can express concerns. I ensure that solutions are fair and align with company goals. If needed, I mediate to find a win-win solution. Clear communication and mutual respect are key. Preventing conflicts through proactive teamwork is always the goal."
+      },
+      {
+        "id": 36,
+        "category": "HR",
+        "difficulty": "Hard",
+        "question": " How do you ensure continuous self-improvement?",
+        "answer": "I set personal and professional growth goals. I regularly seek feedback and identify areas for improvement. Engaging in learning opportunities like courses and networking helps. Staying updated with industry trends ensures I remain competitive. I believe in lifelong learning and self-reflection."
+      },
+      {
+        "id": 37,
+        "category": "HR",
+        "difficulty": "Hard",
+        "question": "If you had to improve our company, what changes would you suggest?",
+        "answer": "I would analyze current processes and identify areas for efficiency improvement. Based on my research, I’d suggest automation or training initiatives. Enhancing employee engagement through better work culture is key. I’d recommend strategies to boost innovation and teamwork. A company’s growth depends on continuous improvements."
+      },
+
+      
+    {
+      "id": 38,
+      "category": "HR",
+      "difficulty": "Hard",
+      "question": "What makes you different from other candidates?",
+      "answer": "My ability to adapt quickly, problem-solve efficiently, and collaborate effectively sets me apart. I bring a unique combination of [mention key skills] that align well with this role. I am proactive, take ownership, and always seek improvement. My passion for learning ensures I stay ahead in my field. I am confident in my ability to add value to the team."
+    },
+
+    
+    
+    {
+      "id": 39,
+      "category": "Technical",
+      "difficulty": "Easy",
+      "question": "What is Object-Oriented Programming (OOP)?",
+      "answer": "OOP is a programming paradigm based on objects and classes."
+    },
+    {
+      "id": 52,
+      "category": "Technical",
+      "difficulty": "Easy",
+      "question": "What is the difference between HTTP and HTTPS?",
+      "answer": "HTTPS is a secure version of HTTP that encrypts data using SSL/TLS."
+    },
+    {
+      "id": 53,
+      "category": "Technical",
+      "difficulty": "Medium",
+      "question": "What is a RESTful API?",
+      "answer": "A RESTful API follows REST principles, allowing CRUD operations over HTTP."
+    },
+    {
+      "id": 54,
+      "category": "Technical",
+      "difficulty": "Medium",
+      "question": "Explain the difference between SQL and NoSQL databases.",
+      "answer": "SQL databases are relational, structured, and use tables, while NoSQL is non-relational and handles unstructured data."
+    },
+    {
+      "id": 55,
+      "category": "Technical",
+      "difficulty": "Hard",
+      "question": "What is a deadlock in database transactions?",
+      "answer": "A deadlock occurs when two or more transactions hold resources the other needs, causing a cyclic wait."
+    },
+    
+    
+    {
+      "id": 101,
+      "category": "Coding",
+      "Topic": "Stack",
+      "question": "Write a function to check if a number is prime.",
+      "answer": "Use a loop to check divisibility from 2 to sqrt(n)."
+    },
+    {
+        "id": 101,
+        "category": "Coding",
+        "Topic": "Stack",
+        "question": "Write a function to check if a number is prime.",
+        "answer": "Use a loop to check divisibility from 2 to sqrt(n)."
+      },
+      {
+      "id": 101,
+      "category": "Coding",
+      "Topic": "Stack",
+      "question": "Write a function to check if a number is prime.",
+      "answer": "Use a loop to check divisibility from 2 to sqrt(n)."
+    },
+    {
+      "id": 102,
+      "category": "Coding",
+      "difficulty": "Easy",
+      "question": "Reverse a string in Python.",
+      "answer": "Use slicing: `s[::-1]`."
+    },
+    {
+      "id": 103,
+      "category": "Coding",
+      "difficulty": "Medium",
+      "question": "Find the missing number in an array of 1 to N.",
+      "answer": "Use sum formula: `N*(N+1)/2 - sum(arr)`."
+    },
+    {
+      "id": 104,
+      "category": "Coding",
+      "difficulty": "Medium",
+      "question": "Detect a loop in a linked list.",
+      "answer": "Use Floyd’s cycle detection algorithm."
+    },
+    {
+      "id": 105,
+      "category": "Coding",
+      "difficulty": "Hard",
+      "question": "Implement LRU Cache.",
+      "answer": "Use a combination of a doubly linked list and a hashmap."
+    },
+    
+    {
+      "id": 151,
+      "category": "Company-Specific",
+      "difficulty": "Easy",
+      "question": "What is Amazon’s leadership principle you resonate with the most?",
+      "answer": "Choose one of Amazon’s 14 leadership principles and give a real-life example."
+    },
+    {
+      "id": 152,
+      "category": "Company-Specific",
+      "difficulty": "Easy",
+      "question": "How does Google’s PageRank algorithm work?",
+      "answer": "PageRank ranks web pages based on link quality and quantity."
+    },
+    {
+      "id": 153,
+      "category": "Company-Specific",
+      "difficulty": "Medium",
+      "question": "What is Microsoft Azure and how does it compare with AWS?",
+      "answer": "Azure and AWS are cloud computing platforms offering IaaS, PaaS, and SaaS."
+    },
+    {
+      "id": 154,
+      "category": "Company-Specific",
+      "difficulty": "Medium",
+      "question": "How does Netflix optimize video streaming quality?",
+      "answer": "Netflix uses adaptive bitrate streaming and global CDNs."
+    },
+    {
+      "id": 155,
+      "category": "Company-Specific",
+      "difficulty": "Hard",
+      "question": "How does Tesla's autopilot system work?",
+      "answer": "Tesla uses AI, computer vision, and sensor fusion for autonomous driving."
+    }
+  ]
+  
