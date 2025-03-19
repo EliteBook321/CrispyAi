@@ -248,129 +248,642 @@
       "answer": "My ability to adapt quickly, problem-solve efficiently, and collaborate effectively sets me apart. I bring a unique combination of [mention key skills] that align well with this role. I am proactive, take ownership, and always seek improvement. My passion for learning ensures I stay ahead in my field. I am confident in my ability to add value to the team."
     },
 
-    
-    
     {
       "id": 39,
-      "category": "Technical",
+      "category": "Coding",
       "difficulty": "Easy",
-      "question": "What is Object-Oriented Programming (OOP)?",
-      "answer": "OOP is a programming paradigm based on objects and classes."
+      "question": "Beginners Problem",
+      "answer": [
+        "Find even or odd",
+        "Find last digit in a number",
+        "Count digits in a number",
+        "Reverse a number",
+        "Find power of a number",
+        "GCD",
+        "Print all divisors of a number",
+        "Prime number",
+        "Armstrong number",
+        "Check palindrome of number",
+        "Square root of a number",
+        "Perfect number"
+      ]
     },
     {
-      "id": 52,
-      "category": "Technical",
+      "id": 40,
+      "category": "Coding",
       "difficulty": "Easy",
-      "question": "What is the difference between HTTP and HTTPS?",
-      "answer": "HTTPS is a secure version of HTTP that encrypts data using SSL/TLS."
+      "question": "Array-EASY",
+      "answer": [
+        "Find the maximum and minimum element in array(After solving the search" , 
+        "Find third largest element in array",
+"Search an element in array",
+"Find missing number in array",
+"Find repeating number in array",
+"Sort an array of 0s , 1s and 2s", 
+"Check if two arrays are equal or not",
+"Rotate the array by 1",
+"Rotate the array by k",
+"Array subset of another array",
+"Count frequency of elements in array"
+      ]
     },
-    {
-      "id": 53,
-      "category": "Technical",
-      "difficulty": "Medium",
-      "question": "What is a RESTful API?",
-      "answer": "A RESTful API follows REST principles, allowing CRUD operations over HTTP."
-    },
-    {
-      "id": 54,
-      "category": "Technical",
-      "difficulty": "Medium",
-      "question": "Explain the difference between SQL and NoSQL databases.",
-      "answer": "SQL databases are relational, structured, and use tables, while NoSQL is non-relational and handles unstructured data."
-    },
-    {
-      "id": 55,
-      "category": "Technical",
-      "difficulty": "Hard",
-      "question": "What is a deadlock in database transactions?",
-      "answer": "A deadlock occurs when two or more transactions hold resources the other needs, causing a cyclic wait."
-    },
-    
-    
     {
       "id": 101,
       "category": "Coding",
-      "Topic": "Stack",
-      "question": "Write a function to check if a number is prime.",
-      "answer": "Use a loop to check divisibility from 2 to sqrt(n)."
+      "difficulty": "Easy",
+      "question": "String",
+      "answer": [
+        "Reverse a string",
+"Check if a string is a palindrome",
+"Count vowels and consonants",
+"Remove duplicates from a string",
+"Check if two strings are anagrams",
+"Find the first non-repeating character",
+"Convert lowercase to uppercase without using built-in functions",
+"Find the longest common prefix",
+"Count the number of words in a string",
+"Find the frequency of characters in a string"
+      ]
     },
-    {
-        "id": 101,
-        "category": "Coding",
-        "Topic": "Stack",
-        "question": "Write a function to check if a number is prime.",
-        "answer": "Use a loop to check divisibility from 2 to sqrt(n)."
-      },
+    
       {
-      "id": 101,
+        "id": 102,
+        "category": "Coding",
+        "difficulty": "Medium",
+        "question": "String",
+        "answer": [
+          "Implement the Rabin-Karp algorithm for substring search",
+          "Longest repeating character replacement",
+          "String compression",
+          "Valid Parentheses",
+          "Minimum window substring",
+          "Group anagrams",
+          "Implement strstr() (substring search)",
+          "Longest palindromic substring",
+          "Find all possible palindrome partitions of a string",
+          "Implement Aho-Corasick Algorithm"
+        ]
+      },
+    
+    
+    {
+      "id": 41,
       "category": "Coding",
-      "Topic": "Stack",
-      "question": "Write a function to check if a number is prime.",
-      "answer": "Use a loop to check divisibility from 2 to sqrt(n)."
+      "difficulty": "Medium",
+      "question": "Array",
+      "answer": [
+        "Find pair with given sum",
+"3 Sum",
+"4 Sum",
+"Find triplets with zero sum",
+"Find count of triplets",
+"Union of two arrays",
+"Intersection of two arrays",
+"Remove duplicates from array",
+"Length of longest subarray with sum k",
+"Trapping rain water"
+      ]
     },
     {
-      "id": 102,
+      "id": 42,
+      "category": "Coding",
+      "difficulty": "Hard",
+      "question": "Array",
+      "answer": [
+        "Majority element",
+"Kadane's algo",
+"Count inversions",
+"Merge intervals",
+"Maximum product subarray",
+"Next permutation",
+"Seive of eranthoses(Popular algo for prime numbers)"
+      ]
+    },
+    {
+      "id": 43,
       "category": "Coding",
       "difficulty": "Easy",
-      "question": "Reverse a string in Python.",
-      "answer": "Use slicing: `s[::-1]`."
+      "question": "Sorting",
+      "answer": [
+        "Bubble sort",
+"Selection sort",
+"Insertion sort",
+"Merge sort",
+"Quick sort"
+      ]
+    },
+    {
+      "id": 44,
+      "category": "Coding",
+      "difficulty": "Medium",
+      "question": "LinkedList",
+      "answer": [
+        "Create, Insert, Delete Operations in LL",
+"Search for an element in LL",
+"Reverse a LL",
+"Check if LL is a Palindrome",
+"Middle element of LL",
+"Find the intersection point of Y LL",
+"Union and Intersection of LL",
+"Delete without head pointer",
+"Count pairs with given sum",
+"Reverse LL in groups of given size",
+"Add 1 to a number represented as LL",
+"Add 2 numbers represented as LL",
+"Subtraction on LL",
+"Rotate LL",
+"Flattening a LL",
+"Detect loop in LL",
+"Find length of loop in LL",
+"Find the starting point of loop",
+"Remove the loop"
+      ]
+    },
+    {
+      "id": 44,
+      "category": "Coding",
+      "difficulty": "Hard",
+      "question": "LinkedList",
+      "answer": [
+        "Sort 0s, 1s, 2s in LL",
+"Pairwise swap elements",
+"Merge sort in LL",
+"Quick sort in LL",
+"Remove occurence of duplicates in sorted & unsorted LL",
+"Seggregate even and odd nodes in LL",
+"Delete nodes having greater value on right",
+"Delete N nodes after M nodes",
+"Delete all occurence of node",
+"Clone a LL",
+"Length of longest palindrome in LL",
+"Learn the basics of circular LL",
+"Insert, Delete, Reverse DLL",
+"Pairs with given sum in DLL"
+      ]
     },
     {
       "id": 103,
       "category": "Coding",
-      "difficulty": "Medium",
-      "question": "Find the missing number in an array of 1 to N.",
-      "answer": "Use sum formula: `N*(N+1)/2 - sum(arr)`."
-    },
-    {
-      "id": 104,
-      "category": "Coding",
-      "difficulty": "Medium",
-      "question": "Detect a loop in a linked list.",
-      "answer": "Use Floyd’s cycle detection algorithm."
-    },
-    {
-      "id": 105,
-      "category": "Coding",
       "difficulty": "Hard",
-      "question": "Implement LRU Cache.",
-      "answer": "Use a combination of a doubly linked list and a hashmap."
+      "question": "String",
+      "answer": [
+        "Edit Distance (Levenshtein Distance)",
+        "Wildcard Matching",
+        "Minimum Insertions to Make a String Palindrome",
+        "Longest Duplication Substring",
+        "Shortest Common Supersequence",
+        "Regular Expression Matching",
+        "Boyer-Moore Algorithm for Pattern Searching",
+        "Find the longest repeating subsequence",
+        "Find the smallest window in a string containing all characters of another string",
+        "Construct the Lexicographically Smallest String with Given Constraints"
+      ]
     },
     
-    {
-      "id": 151,
-      "category": "Company-Specific",
-      "difficulty": "Easy",
-      "question": "What is Amazon’s leadership principle you resonate with the most?",
-      "answer": "Choose one of Amazon’s 14 leadership principles and give a real-life example."
-    },
-    {
-      "id": 152,
-      "category": "Company-Specific",
-      "difficulty": "Easy",
-      "question": "How does Google’s PageRank algorithm work?",
-      "answer": "PageRank ranks web pages based on link quality and quantity."
-    },
-    {
-      "id": 153,
-      "category": "Company-Specific",
-      "difficulty": "Medium",
-      "question": "What is Microsoft Azure and how does it compare with AWS?",
-      "answer": "Azure and AWS are cloud computing platforms offering IaaS, PaaS, and SaaS."
-    },
-    {
-      "id": 154,
-      "category": "Company-Specific",
-      "difficulty": "Medium",
-      "question": "How does Netflix optimize video streaming quality?",
-      "answer": "Netflix uses adaptive bitrate streaming and global CDNs."
-    },
-    {
-      "id": 155,
-      "category": "Company-Specific",
-      "difficulty": "Hard",
-      "question": "How does Tesla's autopilot system work?",
-      "answer": "Tesla uses AI, computer vision, and sensor fusion for autonomous driving."
-    }
+      {
+        "id": 104,
+        "category": "Coding",
+        "difficulty": "Easy",
+        "question": "Trie Problems",
+        "answer": [
+          "Implement Trie (Insert, Search, Delete)",
+          "Find words with a given prefix",
+          "Count words in Trie",
+          "Auto-suggestions using Trie",
+          "Implement a dictionary using Trie"
+        ]
+      },
+      {
+        "id": 105,
+        "category": "Coding",
+        "difficulty": "Medium",
+        "question": "Trie Problems",
+        "answer": [
+          "Word Search using Trie",
+          "Longest Word in Dictionary",
+          "Maximum XOR of two numbers in an array using Trie",
+          "Replace words using dictionary",
+          "Concatenated words"
+        ]
+      },
+      {
+        "id": 106,
+        "category": "Coding",
+        "difficulty": "Hard",
+        "question": "Trie Problems",
+        "answer": [
+          "Word Search II",
+          "Search Suggestions System",
+          "Palindrome Pair using Trie",
+          "Implement a File System using Trie",
+          "Lexicographic Sorting using Trie"
+        ]
+      },
+      {
+        "id": 107,
+        "category": "Coding",
+        "difficulty": "Easy",
+        "question": "Heap Problems",
+        "answer": [
+          "Implement Min-Heap and Max-Heap",
+          "Find the Kth smallest element in an array",
+          "Merge two sorted heaps",
+          "Sort an array using Heap Sort",
+          "Find K largest elements",
+          "Check if an array represents a Min-Heap or Max-Heap",
+          "Heapify an array",
+          "Find the frequency of the most frequent element using Heap",
+          "Find Kth largest element in an unsorted array",
+          "Find K closest numbers to a target",
+          "Convert BST to Min-Heap",
+          "Find all elements greater than a given value in a Min-Heap",
+          "Merge two Binary Max-Heaps",
+          "Find the sum of the largest k elements in an array",
+          "Print all elements of a Min-Heap in sorted order"
+        ]
+      },
+      {
+        "id": 108,
+        "category": "Coding",
+        "difficulty": "Medium",
+        "question": "Heap Problems",
+        "answer": [
+          "Kth Largest Element in a Stream",
+          "Top K Frequent Elements",
+          "K Closest Points to Origin",
+          "Merge K Sorted Linked Lists",
+          "Find the median of a running stream",
+          "Rearrange string such that no two adjacent characters are the same",
+          "Find the sum of elements between K1’th and K2’th smallest elements",
+          "Design a Food Rating System",
+          "Find the K least frequent elements in an array",
+          "Find the smallest sum of K elements in an array",
+          "Reduce array elements to half using minimum operations",
+          "Task Scheduler using Heap",
+          "Find K pairs with the smallest sum in two arrays",
+          "Find the maximum sum of K consecutive elements in an array",
+          "Build a data stream that supports adding numbers and finding the median"
+        ]
+      },
+      {
+        "id": 109,
+        "category": "Coding",
+        "difficulty": "Hard",
+        "question": "Heap Problems",
+        "answer": [
+          "Design Twitter using Heap",
+          "Sliding Window Maximum",
+          "Smallest Range Covering Elements from K Lists",
+          "Minimum Cost to Connect Sticks",
+          "Optimize Water Distribution in a Village",
+          "Find the shortest path in a graph using Dijkstra's Algorithm",
+          "Design a system for stock price fluctuations",
+          "Find the most competitive subsequence",
+          "Find Kth smallest sum of a pair in two sorted arrays",
+          "Find the maximum sum subarray of size K in a circular array",
+          "Rearrange elements such that distance between duplicate elements is at least k",
+          "Find the smallest range that includes at least one element from each of the K lists",
+          "Find K-th largest sum of a contiguous subarray",
+          "Find maximum capital that can be obtained with K projects",
+          "Implement Prim’s Algorithm using a Heap"
+        ]
+      },
+      
+        {
+          "id": 110,
+          "category": "Coding",
+          "difficulty": "Easy",
+          "question": "Dynamic Programming",
+          "answer": [
+            "Fibonacci series using DP",
+            "Climbing stairs problem",
+            "Min cost climbing stairs",
+            "Coin Change problem",
+            "Longest Common Subsequence",
+            "Best Time to Buy and Sell Stock",
+            "Maximum Subarray (Kadane’s Algorithm)",
+            "Jump Game",
+            "Unique Paths",
+            "Rod Cutting Problem",
+            "Subset Sum Problem",
+            "Count Ways to Reach the N-th Stair",
+            "Maximum Sum of Non-Adjacent Elements",
+            "Minimum Path Sum in Grid",
+            "Number of Ways to Partition a Set"
+          ]
+        },
+        {
+          "id": 111,
+          "category": "Coding",
+          "difficulty": "Medium",
+          "question": "Dynamic Programming",
+          "answer": [
+            "Longest Increasing Subsequence",
+            "House Robber problem",
+            "Partition Equal Subset Sum",
+            "Word Break problem",
+            "Decode Ways",
+            "Coin Change II",
+            "Target Sum",
+            "Cherry Pickup",
+            "Longest Palindromic Subsequence",
+            "Interleaving String",
+            "Burst Balloons",
+            "Egg Dropping Problem",
+            "Painting Fence Algorithm",
+            "Minimum ASCII Delete Sum for Two Strings",
+            "Find the Longest Semi-Alternating Substring"
+          ]
+        },
+        {
+          "id": 112,
+          "category": "Coding",
+          "difficulty": "Hard",
+          "question": "Dynamic Programming",
+          "answer": [
+            "Wildcard Matching",
+            "Edit Distance",
+            "Palindromic Substrings",
+            "Dungeon Game",
+            "Largest Rectangle in Histogram",
+            "Maximal Rectangle",
+            "Russian Doll Envelopes",
+            "Minimum Cost to Merge Stones",
+            "Regular Expression Matching",
+            "Longest Valid Parentheses",
+            "Scramble String",
+            "Shortest Common Supersequence",
+            "Minimum Number of Deletions and Insertions",
+            "Longest Arithmetic Subsequence",
+            "Super Egg Drop"
+          ]
+        },
+        
+          {
+            "id": 113,
+            "category": "Coding",
+            "difficulty": "Easy",
+            "question": "Graph Problems",
+            "answer": [
+              "Breadth-First Search (BFS)",
+              "Depth-First Search (DFS)",
+              "Detect Cycle in an Undirected Graph",
+              "Number of Provinces",
+              "Find the number of islands",
+              "Check if a graph is a tree",
+              "Find the degree of each vertex in a graph",
+              "Connected Components in an Undirected Graph",
+              "Count Paths between Two Nodes",
+              "Find whether a path exists in a graph",
+              "Graph Coloring Problem (Two Coloring)",
+              "Graph Representation using Adjacency List",
+              "Graph Representation using Adjacency Matrix",
+              "Check if a given graph is strongly connected",
+              "Find the center of a star graph"
+            ]
+          },
+          {
+            "id": 114,
+            "category": "Coding",
+            "difficulty": "Medium",
+            "question": "Graph Problems",
+            "answer": [
+              "Course Schedule (Topological Sort)",
+              "Shortest Path in Unweighted Graph",
+              "Bipartite Graph Check",
+              "Word Ladder",
+              "Network Delay Time",
+              "Find Bridges in a Graph",
+              "Find Articulation Points in a Graph",
+              "Eulerian Path and Eulerian Circuit",
+              "Find Strongly Connected Components (Kosaraju's Algorithm)",
+              "Hamiltonian Path Problem",
+              "Detect Cycle in a Directed Graph",
+              "Graph Traversal using Backtracking",
+              "Kruskal's Algorithm for Minimum Spanning Tree",
+              "Prim's Algorithm for Minimum Spanning Tree",
+              "Minimum Steps to Reach Target in a Knight's Move"
+            ]
+          },
+          {
+            "id": 115,
+            "category": "Coding",
+            "difficulty": "Hard",
+            "question": "Graph Problems",
+            "answer": [
+              "Dijkstra’s Algorithm",
+              "Bellman-Ford Algorithm",
+              "Floyd-Warshall Algorithm",
+              "Maximum Flow in Graph (Edmonds-Karp)",
+              "Bridges and Articulation Points in a Graph",
+              "Tarjan's Algorithm for Strongly Connected Components",
+              "Johnson’s Algorithm for All-Pairs Shortest Path",
+              "Kahn’s Algorithm for Topological Sorting",
+              "Graph Isomorphism Problem",
+              "Steiner Tree Problem",
+              "Chinese Postman Problem",
+              "Traveling Salesman Problem",
+              "Graph Partitioning Problem",
+              "Hopcroft-Karp Algorithm for Maximum Bipartite Matching",
+              "Dynamic Connectivity using DSU"
+            ]
+          },
+          
+            {
+              "id": 116,
+              "category": "Coding",
+              "difficulty": "Easy",
+              "question": "Backtracking Problems",
+              "answer": [
+                "Generate all subsets of a set",
+                "Find all permutations of a string",
+                "Find all valid parentheses combinations",
+                "N-Queens Problem",
+                "Word Search",
+                "Find all unique subsets",
+                "Generate all binary strings of length n",
+                "Print all paths from top-left to bottom-right in a matrix",
+                "Find all possible letter combinations of a phone number",
+                "Print all increasing sequences of length k from first n natural numbers"
+              ]
+            },
+            {
+              "id": 117,
+              "category": "Coding",
+              "difficulty": "Medium",
+              "question": "Backtracking Problems",
+              "answer": [
+                "Combination Sum",
+                "Sudoku Solver",
+                "Palindrome Partitioning",
+                "Word Break II",
+                "Restore IP Addresses",
+                "Find all palindromic subsequences in a string",
+                "Generate all possible expressions that evaluate to a target",
+                "Solve the m-coloring problem",
+                "Partition an array into K subsets with equal sum",
+                "Find the shortest safe route in a grid with landmines"
+              ]
+            },
+            {
+              "id": 118,
+              "category": "Coding",
+              "difficulty": "Hard",
+              "question": "Backtracking Problems",
+              "answer": [
+                "Rat in a Maze",
+                "Hamiltonian Path",
+                "K-partition problem",
+                "Find all k-length strings from a given set",
+                "Knight’s Tour Problem",
+                "Solve the Traveling Salesman Problem using Backtracking",
+                "Generate all possible solutions for the Cryptarithmetic Puzzle",
+                "Find the longest path in a maze",
+                "Generate all valid expressions by adding operators",
+                "Find all possible arrangements of n queens with restrictions"
+              ]
+            },
+            
+              {
+                "id": 119,
+                "category": "Coding",
+                "difficulty": "Easy",
+                "question": "Tree Problems",
+                "answer": [
+                  "Preorder, Inorder, and Postorder Traversal",
+                  "Find the height of a tree",
+                  "Find the lowest common ancestor (LCA)",
+                  "Mirror of a binary tree",
+                  "Check if a tree is balanced",
+                  "Level Order Traversal",
+                  "Check if two trees are identical",
+                  "Count the number of leaf nodes",
+                  "Find the diameter of a tree",
+                  "Check if a tree is symmetric",
+                  "Find the maximum depth of a binary tree",
+                  "Convert a sorted array to a balanced BST",
+                  "Check if a binary tree is a sum tree",
+                  "Find the sum of all nodes in a binary tree",
+                  "Print left view of a binary tree"
+                ]
+              },
+              {
+                "id": 120,
+                "category": "Coding",
+                "difficulty": "Medium",
+                "question": "Tree Problems",
+                "answer": [
+                  "Construct Binary Tree from Preorder and Inorder Traversal",
+                  "Serialize and Deserialize Binary Tree",
+                  "Zigzag Level Order Traversal",
+                  "Flatten Binary Tree to Linked List",
+                  "Sum Root to Leaf Numbers",
+                  "Vertical Order Traversal of Binary Tree",
+                  "Boundary Traversal of a Binary Tree",
+                  "Check if a given binary tree is BST",
+                  "Find the kth largest element in a BST",
+                  "Convert Binary Tree to Doubly Linked List",
+                  "Find the distance between two nodes in a BST",
+                  "Find the maximum sum path in a binary tree",
+                  "Print all root-to-leaf paths in a binary tree",
+                  "Find nodes at K distance from the root",
+                  "Find ancestors of a given node in a binary tree"
+                ]
+              },
+              {
+                "id": 121,
+                "category": "Coding",
+                "difficulty": "Hard",
+                "question": "Tree Problems",
+                "answer": [
+                  "Maximum Path Sum",
+                  "Count Complete Tree Nodes",
+                  "Binary Tree Cameras",
+                  "Kth Smallest Element in a BST",
+                  "Binary Tree Maximum Width",
+                  "Construct Binary Tree from Inorder and Postorder Traversal",
+                  "Recover Binary Search Tree",
+                  "Find the Largest BST in a Binary Tree",
+                  "Binary Tree Coloring Game",
+                  "Find the Deepest Leaves Sum",
+                  "Find the Most Frequent Subtree Sum",
+                  "Check if a tree is an AVL Tree",
+                  "Convert a Binary Tree to a Threaded Binary Tree",
+                  "Find the sum of all left leaves in a binary tree",
+                  "Find the Minimum Depth of a Binary Tree"
+                ]
+              },
+              
+                {
+                  "id": 122,
+                  "category": "Coding",
+                  "difficulty": "Easy",
+                  "question": "Binary Search Problems",
+                  "answer": [
+                    "Implement Binary Search",
+                    "Find the first and last occurrence of a number",
+                    "Find the square root using Binary Search",
+                    "Search in a rotated sorted array",
+                    "Find peak element",
+                    "Find the insertion position in a sorted array",
+                    "Ceiling of a number",
+                    "Floor of a number",
+                    "Find smallest letter greater than target",
+                    "Find missing number in an array",
+                    "Find the index of extra element in one sorted array",
+                    "Find the first bad version",
+                    "Check if an array is a mountain array",
+                    "Find fixed point (Index where arr[i] = i)",
+                    "Find closest element in a sorted array"
+                  ]
+                },
+                {
+                  "id": 123,
+                  "category": "Coding",
+                  "difficulty": "Medium",
+                  "question": "Binary Search Problems",
+                  "answer": [
+                    "Find median in a sorted matrix",
+                    "Search a 2D Matrix",
+                    "Find the kth smallest element in a sorted matrix",
+                    "Divide Chocolate problem",
+                    "Allocate Books Problem",
+                    "Aggressive Cows Problem",
+                    "Split array largest sum",
+                    "Find the minimum number of days to make m bouquets",
+                    "Find the minimum capacity to ship packages in d days",
+                    "Search an element in an infinite sorted array",
+                    "Find smallest divisor given a threshold",
+                    "Minimize largest sum in k partitions",
+                    "Find number of occurrences of a number in a sorted array",
+                    "Count elements less than or equal to a given number in a sorted matrix",
+                    "Find maximum side length of a square with sum ≤ threshold"
+                  ]
+                },
+                {
+                  "id": 124,
+                  "category": "Coding",
+                  "difficulty": "Hard",
+                  "question": "Binary Search Problems",
+                  "answer": [
+                    "Median of Two Sorted Arrays",
+                    "Painter's Partition Problem",
+                    "Koko Eating Bananas",
+                    "Minimize Max Distance to Gas Station",
+                    "Find missing element in an arithmetic progression",
+                    "Find the maximum profit in a job scheduling problem",
+                    "Find smallest number with at least n trailing zeros in factorial",
+                    "Find smallest base where a number becomes palindrome",
+                    "Find the largest minimum distance for placing k elements in an array",
+                    "Find the optimal point to maximize an equation",
+                    "Find the smallest maximum speed to reach on time",
+                    "Find the maximum distance between elements in two sorted arrays",
+                    "Find the largest sum of a subarray with at most k elements",
+                    "Binary search on answers for the maximum number of non-overlapping subarrays",
+                    "Minimize the sum of maximum elements in all k partitions"
+                  ]
+                }
+              
+              
   ]
   
