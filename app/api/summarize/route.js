@@ -1,53 +1,41 @@
-import axios from 'axios';
-import { IncomingForm } from 'formidable';
-import fs from 'fs';
-import path from 'path';
+import { NextResponse } from "next/server";
+import formidable from "formidable";
+import fs from "fs/promises";
 
-export const config = {
-  api: {
-    bodyParser: false,
-  },
-};
+export async function POST(req) {
+  try {
+    console.log("Received request at /api/summarize");
 
-export default function handler(req, res) {
-  if (req.method === 'POST') {
-    const form = new IncomingForm();
+    // Ensure request is multipart/form-data
+    if (!req.headers.get("content-type")?.includes("multipart/form-data")) {
+      return NextResponse.json({ error: "Invalid content type" }, { status: 400 });
+    }
 
-    form.parse(req, async (err, fields, files) => {
-      if (err) {
-        return res.status(500).json({ error: 'Error processing file' });
-      }
+    // Parse file upload using formidable
+    const form = new formidable.IncomingForm({ multiples: false });
+    const [fields, files] = await form.parse(req);
 
-      const file = files.document[0]; // Extract the uploaded file
-      if (!file || !file.filepath) {
-        return res.status(400).json({ error: 'No file uploaded' });
-      }
+    console.log("Received file:", files.document?.filepath);
 
-      try {
-        const filePath = path.join(process.cwd(), file.filepath);
-        const fileContent = fs.readFileSync(filePath, 'utf-8'); // Read file content
+    if (!files.document) {
+      return NextResponse.json({ error: "No file uploaded" }, { status: 400 });
+    }
 
-        // Send the content to Hugging Face for summarization
-        const response = await axios.post(
-          'https://api-inference.huggingface.co/models/facebook/bart-large-cnn',
-          { inputs: fileContent },
-          {
-            headers: {
-              Authorization: `Bearer ${process.env.HUGGING_FACE_API_KEY}`,
-            },
-          }
-        );
+    // Read file content (assuming it's text)
+    const fileContent = await fs.readFile(files.document.filepath, "utf-8");
 
-        // Explicitly typing the response data
-        const data = response.data; // Here you can add checks or types if needed
+    // Simulate summarization (replace with actual logic)
+    const summary = `Summarized content: ${fileContent.substring(0, 100)}...`;
 
-        // Send the summarized text back to the frontend
-        res.status(200).json({ summary: data[0].summary_text });
-      } catch (error) {
-        console.error(error);
-        res.status(500).json({ error: 'Failed to summarize document' });
-      }
-    });
+    return NextResponse.json({ summary });
+  } catch (error) {
+    console.error("Error in /api/summarize:", error);
+    return NextResponse.json({ error: "Server error" }, { status: 500 });
   }
 }
 
+export const config = {
+  api: {
+    bodyParser: false, // Required for handling file uploads
+  },
+};

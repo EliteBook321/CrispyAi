@@ -12,7 +12,7 @@ export default function Home() {
   useEffect(() => {
     if (darkMode) {
       document.documentElement.classList.add("dark");
-    } else {
+    } else {   
       document.documentElement.classList.remove("dark");
     }
   }, [darkMode]);

@@ -1,7 +1,7 @@
 "use client"
 import React, { useEffect } from 'react'
 import Image from 'next/image'
-import { BookAIcon, BookCheck, DownloadCloud, FileClock, Home, PersonStandingIcon, Settings, SpeechIcon } from 'lucide-react'
+import { BookAIcon, BookCheck, DownloadCloud, FileClock, Home, PersonStandingIcon, Settings, SpeechIcon, Hand, BadgeCheck } from 'lucide-react' // Added new icons
 import { usePathname } from 'next/navigation'
 import Link from 'next/link'
 
@@ -21,6 +21,16 @@ function SideNav() {
             name: 'Document summary',
             icon: DownloadCloud,
             path: '/dashboard/document-summarization'
+        },
+        {
+            name: 'Sign Language',
+            icon: Hand,
+            path: '/dashboard/sign-language'
+        },
+        {
+            name: 'Credential Generation',
+            icon: BadgeCheck,
+            path: '/dashboard/credential-generation'
         },
         {
             name: 'Personalization',
