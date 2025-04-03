@@ -21,6 +21,9 @@ const InterviewPrepPage: React.FC = () => {
   const [aiFeedback, setAiFeedback] = useState<string | null>(null);
   const [score, setScore] = useState<number | null>(null);
 
+  // Scoreboard State
+  const [scoreboard, setScoreboard] = useState<{ score: number; feedback: string }[]>([]);
+
   useEffect(() => {
     fetch("/data/questions.json")
       .then((res) => res.json())
@@ -68,12 +71,28 @@ const InterviewPrepPage: React.FC = () => {
 
       // Extract score (1-10)
       const matchScore = aiResponse.match(/\d+/);
+      const scoreValue = matchScore ? parseInt(matchScore[0]) : null;
+
       setAiFeedback(aiResponse);
-      setScore(matchScore ? parseInt(matchScore[0]) : null);
+      setScore(scoreValue);
+
+      // Update scoreboard
+      if (scoreValue !== null) {
+        setScoreboard((prev) => [
+          ...prev,
+          { score: scoreValue, feedback: aiResponse },
+        ]);
+      }
     } catch (error) {
       console.error("Error getting AI feedback:", error);
     }
   };
+
+  // Calculate average score
+  const averageScore =
+    scoreboard.length > 0
+      ? (scoreboard.reduce((acc, item) => acc + item.score, 0) / scoreboard.length).toFixed(1)
+      : "N/A";
 
   return (
     <div className="container mx-auto p-6">
@@ -159,6 +178,20 @@ const InterviewPrepPage: React.FC = () => {
             )}
           </div>
         ))}
+      </div>
+
+      {/* 📊 Scoreboard Section */}
+      <div className="mt-8 p-5 bg-gray-50 border rounded shadow">
+        <h2 className="text-2xl font-semibold">📊 Scoreboard</h2>
+        <p className="text-lg font-medium">🏆 Average Score: {averageScore}</p>
+        <ul className="mt-4">
+          {scoreboard.map((entry, index) => (
+            <li key={index} className="mt-2 p-2 bg-gray-200 rounded">
+              <strong>Score: {entry.score}/10</strong>
+              <p className="text-sm">{entry.feedback}</p>
+            </li>
+          ))}
+        </ul>
       </div>
     </div>
   );
