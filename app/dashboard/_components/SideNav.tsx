@@ -1,7 +1,7 @@
 "use client"
 import React, { useEffect } from 'react'
 import Image from 'next/image'
-import { BookCheck, DownloadCloud, FileClock, Home, PersonStandingIcon, Settings, SpeechIcon } from 'lucide-react'
+import { BookAIcon, BookCheck, DownloadCloud, FileClock, Home, PersonStandingIcon, Settings, SpeechIcon } from 'lucide-react'
 import { usePathname } from 'next/navigation'
 import Link from 'next/link'
 
@@ -36,6 +36,11 @@ function SideNav() {
             name: 'InterviewPrep',
             icon: BookCheck,
             path: '/dashboard/InterviewPrep'
+        },
+        {
+            name: 'LessonPlanner',
+            icon: BookAIcon,
+            path: '/dashboard/LessonPlanner'
         },
         {
             name: 'Settings',
